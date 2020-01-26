@@ -4,5 +4,6 @@ def square_array(array)
   array.each do |number|
     new_arary[index] = number * number
     index += 1
+  end
   return new_array
 end
